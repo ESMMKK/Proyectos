@@ -5,41 +5,41 @@ using namespace std;
 
 int main() {	
 		int menu,menu2,menu3,menu4;
-		//String[][] fila = {{"|Iteraciones|", "|Aproximacion|", "|Error absoluto|", "|Error relativo porcentual|", "|Error relativo aproximado|"}};
 	
 		
 do {
-	cout<<"Menu 1"<<endl;
+	cout<<"\t\tMenu 1"<<endl<<endl;
 	cout<<"1.Hoja de Presentacion"<<endl; 
 	cout<<"2.Metodos del Sistemas de Ecuaciones Lineales"<<endl; 
-	cout<<"3.Salir del programa"<<endl; 
+	cout<<"3.Salir del programa"<<endl<<endl; 
 	cout<<"Eliga la opcion que desea:"<<endl;
 	cin>>menu;
 	system("cls");
 		switch(menu){
 		case 1:
-				cout<<"UNIVERSIDAD TECNOLOGICA DE PANAMA"<<endl;
-				cout<<"FACULTAD DE SISTEMAS Y COMPUTACION"<<endl;
+				cout<<"\tUNIVERSIDAD TECNOLOGICA DE PANAMA"<<endl;
+				cout<<"\tFACULTAD DE SISTEMAS Y COMPUTACION"<<endl;
 				cout<<"LICENCIATURA EN INGENIERIA EN SISTEMAS COMPUTACIONALES"<<endl;
-				cout<<"METODOS NUMERICOS PARA INGENIEROS"<<endl;
-				cout<<"PROYECTO N2"<<endl;
-				cout<<"TEMA:"<<endl;
-				cout<<"TEORIA DE ERROR"<<endl; 
+				cout<<"\tMETODOS NUMERICOS PARA INGENIEROS"<<endl;
+				cout<<"\t\tPROYECTO N2"<<endl;
+				cout<<"\t\t   TEMA:"<<endl;
+				cout<<"SISTEMAS DE ECUACIONES ALGEBRAICAS LINEALES"<<endl; 
 				cout<<"FACILITADOR: ING.JACQUELINE S. DE CHING"<<endl;
-				cout<<"INTEGRANTES:"<<endl;
-				cout<<"EDGAR MARTIN 8-913-1957"<<endl;
-				cout<<"1IL-124"<<endl;
-				cout<<"29/9/19"<<endl;
+				cout<<"\t\tINTEGRANTES:"<<endl;
+				cout<<"\t   EDGAR MARTIN 8-913-1957"<<endl;
+				cout<<"\t   IVES  					"<<endl;
+				cout<<"\t\t1IL-124"<<endl;
+				cout<<"\t\t20/10/19"<<endl;
 				system("pause");
 				system("cls");		
 		break;
 		case 2:
 				do {
 					system("cls");	
-					cout<<"Menu 2"<<endl;
+					cout<<"\t\tMenu 2"<<endl<<endl;
 					cout<<"1. Metodo Iteractivo "<<endl;
 					cout<<"2. Metodo Doollitle"<<endl;
-					cout<<"3.Regresar al Menu Principal"<<endl;
+					cout<<"3.Regresar al Menu Principal"<<endl<<endl;
 					cout<<"Eliga la opcion que desea:"<<endl;
 					cin>>menu2;
 					system("cls");
@@ -47,10 +47,10 @@ do {
 						case 1:	
 							 	do{
 									system("cls");
-									cout<<"METODO ITERATIVO"<<endl;
+									cout<<"\tMETODO ITERATIVO"<<endl<<endl;
 									cout<<"1. Tabla o cuadro de iteraciones"<<endl;
 									cout<<"2. Resultado del Sistema de Ecuaciones Algebraico lineal"<<endl;
-									cout<<"3. Regresar al Menu anterior"<<endl;
+									cout<<"3. Regresar al Menu anterior"<<endl<<endl;
 									cout<<"Eliga la opcion que desea:"<<endl;
 									cin>>menu3;
 									system("cls");
@@ -77,12 +77,12 @@ do {
 						case 2:
 								do{
 									system("cls");
-									cout<<"METODO DOOLITLE"<<endl;
+									cout<<"\tMETODO DOOLITLE"<<endl;
 									cout<<"1. Matriz Principal"<<endl;
 									cout<<"2. Matriz Triangular Inferior"<<endl;
 									cout<<"3. Matriz Triangular Superior"<<endl;
 									cout<<"4. Resultado del Sistema de Ecuaciones Algebraico Lineal"<<endl;
-									cout<<"5. Regresar al Menu anterior"<<endl;
+									cout<<"5. Regresar al Menu anterior"<<endl<<endl;
 									cout<<"Eliga la opcion que desea:"<<endl;
 									cin>>menu4;
 									system("cls");	
